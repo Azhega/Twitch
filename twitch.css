@@ -1,0 +1,1143 @@
+html ::-webkit-scrollbar {
+    display: none;
+}
+
+body,html
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body
+{
+    background-color: #0e0e10;
+    color:white;
+    font-family: "Roobert", "Inter", "Helvetica Neue" , "Helvetica" , "Arial" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/*==================NavBar==================*/
+
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18181b;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 20;  
+}
+
+.browsetxt
+{
+    font-size: 18px;
+}
+
+.browsebar
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#twitchlogo
+{
+    padding: 0.7rem;
+}
+#atwitchlogo
+{
+    width: 3.15rem;
+    height: 3.15rem;
+}
+
+.browsebuttons
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.followedbutton
+{
+    padding: 0 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.browsebutton
+{
+    padding: 0 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.miscmenu
+{
+    width: 30px;
+    height: 50px;
+    padding: 0 0.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amiscmenu
+{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+}
+.searchbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 36px;
+    padding: 5px;
+}
+.searchbox
+{
+    width: 70%;
+    height: 100%
+}
+.Rechercherbox
+{
+    height: 24.67px;
+    width: 336px;
+    padding: 5px 10px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Rechercher
+{
+    background-color: #18181b;
+    width: 95%;
+    height: 80%;
+    border: none;
+}
+.searchbutton
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#searchbutton
+{
+    background-color: #35353a;
+    height: 100%;
+    width: 34px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+.useractions
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+}
+
+#primebutton
+{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#primelogo
+{
+    width: 1rem;
+}
+
+#notificationsbutton
+{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#notificationslogo
+{
+    width: 1rem;
+}
+#whispersbutton
+{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#whisperslogo
+{
+    width: 1rem;
+}
+#buybitsbutton
+{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#buybitslogo
+{
+    width: 1rem;
+}
+#turbobutton
+{
+    background-color: #35353a;
+    width: 260px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+#turbologo
+{
+    width: 1rem;
+    height: 100%;
+}
+.turbobar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+#turbotxt
+{
+    color: white;
+}
+
+#accountbutton
+{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-right: 10px;
+}
+#accountlogo
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*==================Aside==================*/
+
+.content
+{
+    display: flex;
+}
+
+.aside
+{
+    background-color: #1f2022;
+    width: 14%;
+    height: 100%;
+    font-size: 21px;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+.aside::-webkit-scrollbar
+{
+    display: none;
+}
+
+.foryou
+{
+    padding-left: 10px;
+    padding-top: 1vh;
+    margin-top: 55px;
+}
+.foryoutitle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#pourvous
+{
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+#stories
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    background-color:#1f2022;
+    border:none;
+    padding-right: 30px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+#storieslogo
+{
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, cyan, blue, darkorchid) border-box;
+    border-radius: 500px;
+    border: 2px solid transparent;
+}
+
+#ouvrirstories
+{
+    color: #BF94FF;
+}
+#flechehide
+{
+    width: 1rem;
+    height: 100%;
+}
+
+#suivies
+{
+    font-size: 13px;
+}
+.followedstreamstitle
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+
+}
+#trierlogo
+{
+    width: 1rem;
+    height: 100%;
+}
+
+.otplol_stream
+{
+    display: flex;
+    flex-direction: row;
+    padding: 7px 10px;
+    height: 30px;
+}
+.otplol_stream:hover
+{
+    background-color:#35353a
+}
+.otplol_logo
+{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+#img_otplol_logo
+{
+    border-radius: 500px;
+    width: 100%;
+}
+
+.otplol_infos
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    width: 100%;
+}
+.otplol_namegame
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#otplol_
+{
+    font-size: 14px;
+    margin: 0;
+}
+#LoL
+{
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+    color: lightgray;
+}
+
+.otplol_viewers
+{
+    width: 38px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+.otplol_dot
+{
+    width: 8px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+}
+#img_otplol_dot
+{
+    width: 100%;
+    height: 100%;
+}
+
+#otplol_viewers_nbr
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.showmoresection
+{
+    width: 90%;
+    height: 90%;
+    padding: 7px 10px;
+    
+}
+#showmore
+{
+    font-size: 12px;
+    color: #BF94FF;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+}
+
+
+/*=========================MAIN============================*/
+
+.main
+{
+    width: 86%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0 ;
+    margin-left: 14%;
+    margin-top: 50px;
+}
+
+.mainstreams
+{
+    width: 750px;
+    height: 300px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.mainstreamsection
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mainstreamvideosection
+{
+    width: 70%;
+    height: 100%;
+    position: absolute; 
+    z-index: 50;
+}
+
+.mainstreamvideobuttons
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.mainstreamlivebutton
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 42px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+#mainstreamlive
+{
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+#mainstreamvideo
+{
+    width: 100%;
+    height: 100%;
+}
+
+.mainstreambuttonsbar
+{
+    position: absolute;
+    top: 265px;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+}
+.mainstreambuttons
+{
+    width: 15px;
+}
+.mainstream_play_sound_buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 9%;
+}
+.mainstream_options_fullscreen_buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.5%;
+}
+
+.mainstreaminfossection
+{
+    width: 27%;
+    height: 92%;
+    background-color:#1f2022;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    left: 525px;
+    z-index: 50;
+}
+.mainstream_logo_infos
+{
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+}
+.mainstream_logo
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#mainstreamlogo
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 500px;
+}
+
+.mainstream_infos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-left: 10px;
+}
+#mainstream_name
+{
+    color: #BF94FF;
+    margin: 0;
+}
+#mainstream_game
+{
+    color: #BF94FF;
+    font-weight: 400;
+    margin: 0;
+}
+#mainstream_viewers
+{
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.tags
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+#tag_english
+{
+    font-size: 12px;
+    color: #ADADB8;
+    margin: 0 5px 5px 0;
+    background-color: #53535F61;
+    border-radius: 500px;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#tag_esport
+{
+    font-size: 12px;
+    color: #ADADB8;
+    margin: 0 5px 5px 0;
+    background-color: #53535F61;
+    border-radius: 500px;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#tag_fgc
+{
+    font-size: 12px;
+    color: #ADADB8;
+    margin: 0 5px 5px 0;
+    background-color: #53535F61;
+    border-radius: 500px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.otherstreams
+{
+    width: 70%;
+    height: 100%;
+}
+.otherstream1
+{
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    left: -100px;
+    filter: brightness(0.5);
+}
+.otherstream2
+{
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    right: -100px;
+    filter: brightness(0.5);
+}
+.otherstream3
+{
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+    top: 14%;
+    left: -200px;
+    filter: brightness(0.5);
+}
+.otherstream4
+{
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+    top: 14%;
+    right: -200px;
+    filter: brightness(0.5);
+}
+
+#otherstreamimg
+{
+    width: 100%;
+    height: 100%;
+}
+
+.otherstreamsarrows
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1400px;
+    right: -325px;
+}
+.arrow
+{
+    width: 8px;
+}
+
+
+
+
+.foryousection
+{   
+    width: 82%;
+    height: 1000px;
+    position: absolute;
+    top: 48%;
+    left: 16%;
+}
+#foryoustreamstitle
+{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#livestreams
+{
+    color: #BF94FF;
+}
+
+.foryoustreamssection
+{
+    height: 37%;
+    margin-bottom: 20px;
+}
+.foryoustreams
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foryoustream1
+{
+    width: 24.5%;
+}
+#fystream1
+{
+    opacity: 0;
+}
+.fystream1_preview
+{
+    width: 100%;
+}
+#fystream1_previewimg
+{
+    width: 100%;
+}
+.fystreamlivebutton
+{
+    position: relative;
+    top: -190px;
+    left: 8px;
+    width: 42px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.fystream1_logo
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#fystream1_logoimg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 500px;
+}
+.fystream1_logo_infos
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    width: 100%;
+}
+.fystream1_infos
+{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+}
+#fystream1_title
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#fystream1_name
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 2px;
+    color:#ADADB8
+}
+#fystream1_game
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #ADADB8
+}
+.fystream1_tags
+{
+    display: flex;
+    flex-direction: row;
+}
+.fystream1_options
+{
+    width: 15px;
+    height: 15px;
+}
+#fystream1_optionsimg
+{
+    width: 100%;
+    height: 100%;
+}
+
+.fystreamsshowmoresection
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#hrshowmore
+{
+    width: 45%;
+    height: 0;
+    opacity: 10%;
+}
+#fystreamsshowmore
+{
+    font-size: 13px;
+    color:#BF94FF;
+    margin: 20px 10px 20px 10px;
+}
+
+.foryoucategoriessection
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.categoriessection
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ssbucategory
+{
+    width: 11.8%;
+}
+.ssbucategory_imgsection
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+#ssbucategory_img
+{
+    width: 100%;
+}
+
+.ssbucategory_infos_options
+{
+    display: flex;
+    flex-direction: row;
+}
+.ssbucategory_infos
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#ssbucategory_game
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#ssbucategory_viewers
+{
+    font-size: 13px;
+    font-weight: 400;
+    color:#ADADB8;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#tag_combat
+{
+    font-size: 12px;
+    color: #ADADB8;
+    margin: 0 5px 5px 0;
+    background-color: #53535F61;
+    border-radius: 500px;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.ssbucategory_options
+{
+    width: 10%
+}
+#ssbucategory_optionsimg
+{
+    width: 100%;
+}
+
+
+.mainstreams {
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+#foryoustreamstitle {
+    animation-delay: 200ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+#fystream1 {
+    animation-delay: 200ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream2 {
+    animation-delay: 400ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream3 {
+    animation-delay: 600ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream4 {
+    animation-delay: 800ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream5 {
+    animation-delay: 1000ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream6 {
+    animation-delay: 1200ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream7 {
+    animation-delay: 1400ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#fystream8 {
+    animation-delay: 1600ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+.fystreamsshowmoresection {
+    animation-delay: 900ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+#fystreamsshowmoresection2 {
+    animation-delay: 1800ms;
+    -webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -40,6 +40,10 @@ body
 {
     font-size: 18px;
 }
+.browsetxt:hover
+{
+    color:#BF94FF
+}
 
 .browsebar
 {
@@ -51,7 +55,14 @@ body
 #twitchlogo
 {
     padding: 0.7rem;
+    transition: all 0.2s ease-in-out;
 }
+#twitchlogo:hover
+{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
 #atwitchlogo
 {
     width: 3.15rem;
@@ -87,6 +98,7 @@ body
     justify-content: center;
     align-items: center;
 }
+
 #amiscmenu
 {
     width: 30px;
@@ -94,6 +106,11 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#amiscmenu:hover
+{
+    background-color: #2b2b2e;
+    border-radius: 5px;
 }
 
 .search
@@ -138,12 +155,17 @@ body
     width: 95%;
     height: 80%;
     border: none;
+    color: white;
 }
 .searchbutton
 {
     height: 100%;
     display: flex;
     align-items: center;
+}
+#searchbutton:hover
+{
+    background-color:#3b3b41;
 }
 #searchbutton
 {
@@ -177,6 +199,11 @@ body
     justify-content: center;
     border: none;
 }
+#primebutton:hover
+{
+    background-color: #2b2b2e;
+    border-radius: 5px;
+}
 #primelogo
 {
     width: 1rem;
@@ -192,6 +219,11 @@ body
     justify-content: center;
     border: none;
 }
+#notificationsbutton:hover
+{
+    background-color: #2b2b2e;
+    border-radius: 5px;
+}
 #notificationslogo
 {
     width: 1rem;
@@ -206,6 +238,11 @@ body
     justify-content: center;
     border: none;
 }
+#whispersbutton:hover
+{
+    background-color: #2b2b2e;
+    border-radius: 5px;
+}
 #whisperslogo
 {
     width: 1rem;
@@ -219,6 +256,11 @@ body
     align-items: center;
     justify-content: center;
     border: none;
+}
+#buybitsbutton:hover
+{
+    background-color: #2b2b2e;
+    border-radius: 5px;
 }
 #buybitslogo
 {
@@ -239,6 +281,11 @@ body
 {
     width: 1rem;
     height: 100%;
+}
+#turbobutton:hover
+{
+    background-color:#3b3b41;
+    border-radius: 5px;
 }
 .turbobar
 {
@@ -612,11 +659,19 @@ body
     color: #BF94FF;
     margin: 0;
 }
+#mainstream_name:hover
+{
+    text-decoration: underline;
+}
 #mainstream_game
 {
     color: #BF94FF;
     font-weight: 400;
     margin: 0;
+}
+#mainstream_game:hover
+{
+    text-decoration: underline;
 }
 #mainstream_viewers
 {
@@ -645,8 +700,12 @@ body
     align-items: center;
     display: flex;
     justify-content: center;
-    
 }
+#tag_english:hover
+{
+    background-color:#3b3b41
+}
+
 #tag_esport
 {
     font-size: 12px;
@@ -661,6 +720,12 @@ body
     display: flex;
     justify-content: center;
 }
+#tag_esport:hover
+{
+    background-color:#3b3b41
+}
+
+
 #tag_fgc
 {
     font-size: 12px;
@@ -675,6 +740,11 @@ body
     display: flex;
     justify-content: center;
 }
+#tag_fgc:hover
+{
+    background-color:#3b3b41
+}
+
 
 .otherstreams
 {
@@ -688,7 +758,15 @@ body
     top: 8%;
     left: -100px;
     filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
 }
+.otherstream1:hover
+{
+    filter: brightness(1);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
 .otherstream2
 {
     position: absolute;
@@ -696,7 +774,15 @@ body
     top: 8%;
     right: -100px;
     filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
 }
+.otherstream2:hover
+{
+    filter: brightness(1);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
 .otherstream3
 {
     position: absolute;
@@ -705,7 +791,15 @@ body
     top: 14%;
     left: -200px;
     filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
 }
+.otherstream3:hover
+{
+    filter: brightness(1);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
 .otherstream4
 {
     position: absolute;
@@ -714,6 +808,13 @@ body
     top: 14%;
     right: -200px;
     filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
+}
+.otherstream4:hover
+{
+    filter: brightness(1);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
 }
 
 #otherstreamimg
@@ -739,7 +840,6 @@ body
 
 
 
-
 .foryousection
 {   
     width: 82%;
@@ -757,6 +857,10 @@ body
 #livestreams
 {
     color: #BF94FF;
+}
+#livestreams:hover
+{
+    text-decoration: underline;
 }
 
 .foryoustreamssection
@@ -781,6 +885,12 @@ body
 .fystream1_preview
 {
     width: 100%;
+    transition: all 0.1s ease-in-out;
+}
+.fystream1_preview:hover
+{
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.02);
 }
 #fystream1_previewimg
 {
@@ -833,6 +943,10 @@ body
     margin: 0;
     margin-bottom: 5px;
 }
+#fystream1_title:hover
+{
+    color:#BF94FF;
+}
 #fystream1_name
 {
     font-size: 13px;
@@ -848,6 +962,10 @@ body
     margin: 0;
     margin-bottom: 5px;
     color: #ADADB8
+}
+#fystream1_game:hover
+{
+    color:#BF94FF;
 }
 .fystream1_tags
 {
@@ -884,6 +1002,10 @@ body
     color:#BF94FF;
     margin: 20px 10px 20px 10px;
 }
+#fystreamsshowmore:hover
+{
+    color:white;
+}
 
 .foryoucategoriessection
 {
@@ -905,6 +1027,11 @@ body
 {
     width: 100%;
     margin-bottom: 5px;
+}
+.ssbucategory_imgsection:hover
+{
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.02);
 }
 #ssbucategory_img
 {
@@ -951,6 +1078,11 @@ body
     display: flex;
     justify-content: center;
 }
+#tag_combat:hover
+{
+    background-color:#3b3b41
+}
+
 .ssbucategory_options
 {
     width: 10%
